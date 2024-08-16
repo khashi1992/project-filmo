@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: sansfarsi;
+    src: url(../aseet/font/IRANSansWeb.ttf),
+    url(../aseet/font/IRANSansWeb_Black.ttf)
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.show{
+    display: flex;
+    transition: 0.4s ease-in-out;
+}
+.trans{
+    transform: translateX(0);
+    transition: 0.4s ease-in-out;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    
+}
+.catSshow{
+     display: block;
+     transition: 0.4s ease-out;
+}
+.dropdown{
+    transition: width 2s ease-in-out 1s;
+    display: flex;
+    margin: 5px 0;
+}
+.btn{
+    border: 1px solid #000;
+    color: white;
+    background-color: black;
+    transition: 0.4s ease-in-out;
+    
+}
+video{
+    background-color: #000;
+     width: 100%;
+    height: 460px!important;
+}

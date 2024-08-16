@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="src/aseet/img/filimo_150.png"/>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="src/css/fontello.css">
+    <link rel="stylesheet" href="src/css/master.css">
+    <link rel="stylesheet" href="src/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="src/css/slider.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  
+    <title>تماشای آنلاین فیلم و سریال | فیلیمو</title>
+</head>
+<body>
+    <!-- npx tailwindcss -i ./src/css/master.css -o ./dist/output.css --watch -->
+    
+    <main class="md:overflow-x-hidden w-full h-full bg-main font-primary ">
+            <!-- header start -->
+            
+            <header id="header" class="w-full fixed z-50 h-[60px] flex justify-between items-center   bg-[#000000d7]">
+                <div class="w-1/2 md:w-2/3  ">
+                    <ul class="relative w-full h-full justify-center  items-center   *:text-white *:px-5 *:h-full *:cursor-pointer hidden md:flex " >
+                            <li class=""><img class="cursor-pointer object-cover h-7 w-17" src="src/aseet/img/fa-filimo-dark-logo.png" alt=""></li>
+                            <li class="hover:text-icon hover:duration-300"><a href="" class="flex justify-center items-center h-full "><span class="material-symbols-outlined text-icon">
+                                local_fire_department
+                                </span>فیلموتور</a></li>
+                            <li id="a1" class="relative group w-fit"> <a  href="" class="flex  justify-center items-center h-full hover:text-icon hover:duration-300 ">فیلم<span class="material-symbols-outlined">
+                                keyboard_arrow_down
+                                </span></a>
+                               
+                                    <ul id="ul1" class="rounded group-hover:flex group-hover:duration-300 group-hover:animate-ease  h-[360px] w-[300px] absolute left-0 top-[25px] bg-sub  hidden flex-wrap *:w-[120px] justify-center items-center gap-2 ">
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">وسترن</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">مستند</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">جنگی</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">خانواده</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">عاشقانه</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">درام</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">انبمیشن</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">رازالود</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300">گیم شو</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300"> وحشت</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300"> کمدی</a></li>
+                                        <li class=""><a href="" class="hover:text-icon hover:duration-300"> اکشن</a></li>
+                                    </ul>
+                                
+                            
+                            
+                              </li>
+                            <li  id="a2" class="relative  group w-fit  "><a href="" class="flex  justify-center items-center h-full hover:text-icon hover:duration-300">سریال<span class="material-symbols-outlined ">
+                                keyboard_arrow_down
+                                </span></a>
+                            
+                                <ul id="ul2" class="rounded group-hover:flex group-hover:duration-300 group-hover:animate-ease  border-t-black h-[360px] w-[300px] absolute left-0 top-[25px] bg-sub  hidden flex-wrap *:w-[120px] justify-center items-center gap-2 ">
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">وسترن</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">مستند</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">جنگی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">خانواده</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">عاشقانه</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">درام</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">درام</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">انبمیشن</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">رازالود</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">گیم شو</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300"> وحشت</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300"> کمدی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300"> اکشن</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class=""><a href="" class="hover:text-icon hover:duration-300">ایرانی</a></li>
+                            <li class=""><a href="" class="hover:text-icon hover:duration-300">خارجی</a></li>
+                            <li id="a3" class="relative group w-fit"><a href="" class="flex  items-center h-full hover:text-icon hover:duration-300">مجموعه ها<span class="material-symbols-outlined">
+                                keyboard_arrow_down
+                                </span></a>
+                                <ul id="ul3" class="rounded group-hover:flex group-hover:duration-300 group-hover:animate-ease  h-[200px] w-[360px] absolute left-0 top-[25px] bg-sub  hidden flex-wrap *:w-[150px] justify-center items-center gap-2  ">
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">imdbفیلم برتر </a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">مستند</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">جنگی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">خانواده</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">عاشقانه</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">درام</a></li>
+                                    <li class=""><a href="" class="hover:text-icon hover:duration-300">فانتزی</a></li>
+                                    
+                                </ul>
+                            
+                            </li>
+                            <li class=""><a href="" class="flex  items-center h-full hover:text-icon hover:duration-300"> <span class="material-symbols-outlined">
+                                play_circle
+                                </span>فیلمو مدرسه</a></li>
+                            <li class=""><a href="" class="flex  items-center h-full hover:text-icon hover:duration-300"> <span class="material-symbols-outlined">
+                                bedroom_baby
+                                </span>کودک</a></li>
+                            <li   ><a href="#"    onclick="func()" class="w-full   flex  items-center h-full hover:text-icon hover:duration-300 search">
+                                 <span  class="material-symbols-outlined rotate-[90deg]">
+                                search
+                                </span>جستجو</a></li>
+                               
+                    </ul>
+                    <figure class="md:hidden ">
+                        <img class="cursor-pointer object-cover h-7 w-17" src="src/aseet/img/fa-filimo-dark-logo.png" alt="">
+                    </figure>
+                </div>
+                <div class="w-1/2 md:w-1/3 h-full flex justify-end  items-center *:cursor-pointer ">
+                    <button id="btn2" class="px-2 h-full flex items-center md:hidden search"><span class="material-symbols-outlined text-white  rotate-[90deg] ">
+                        search
+                        </span></button>
+                    <a href="./Reg.html" target="_blank" class="h-[30px] w-[160px] flex justify-center items-center   text-white bg-[rgb(92,92,88)] rounded  md:ml-[100px] hover:bg-opacity-65 hover:duration-300 text-center">ورود و تماشای رایگان</a>
+                </div>
+            </header>
+            <!--  -->
+            
+            <!-- header end -->
+            <section id="transl" class="w-full h-vh bg-[#0b0404fd] hidden justify-center items-center translate-x-[2000px]  ">
+                <div class="w-full flex justify-center items-center h-15  *:mx-2 *:px-1 text-center flex-wrap *:py-4" >
+                    <input type="search" class=" w-3/4 md:w-[700px]  rounded" placeholder="جستجو فیلم، بازیگر، کارگردان و ...">
+                    <button id="close" class="text-icon bg-black outline-none w-20 rounded hover:bg-opacity-5 hover:duration-300 cursor-pointer">بستن</button>
+                     <h6 class="w-full  text-white  " >تاریخچه جستجو</h6>
+                     <p  class="w-full  text-white  " >در این لیست، فیلم‌ و سریال‌ها، بازیگر و کارگردان‌هایی که جستجو می‌کنید ذخیره می‌شوند</p> 
+                </div>
+                
+            </section>
+            <!--  -->
+            <!-- Swiper -->
+            <section class="w-full h-vh flex ">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                            <section class="bg-bg1 w-full h-full hidden md:flex ">
+                                    <div class="flex flex-wrap flex-col justify-end items-end *:my-2 *:px-5 mb-9 *:text-right ">
+                                        <div class="w-full">
+                                            <figure class=" ">
+                                                <img class="" src="src/aseet/img/8ydem_logotype_v1.webp" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="w-full">
+                                            <span class="w-full h-full text-white font-bold">حل معمایی عجیب</span>
+                                        </div>
+                                        <div class="w-full">
+                                            
+                                        <a href="#" class="w-fit p-1 h-full flex items-center bg-white rounded hover:bg-opacity-80 hover:duration-300 "><span class="material-symbols-outlined">
+                                            arrow_right
+                                            </span >تماشای رایگان</a>
+                                        </div>
+                                       
+                                  
+                                    </div>
+                            </section>
+                            <section class="bg-bg2 w-full h-full flex bg-center bg-cover md:hidden ">
+                                <div class="flex flex-wrap flex-col justify-end items-end *:my-2 *:px-5 mb-9 *:text-right ">
+                                    <div class="w-full">
+                                        <figure class=" ">
+                                            <img class="" src="src/aseet/img/8ydem_logotype_v1.webp" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="w-full">
+                                        <span class="w-full h-full text-white font-bold">حل معمایی عجیب</span>
+                                    </div>
+                                    <div class="w-full">
+                                        
+                                    <a href="#" class="w-fit p-1 h-full flex items-center bg-white rounded hover:bg-opacity-80 hover:duration-300 "><span class="material-symbols-outlined">
+                                        arrow_right
+                                        </span >تماشای رایگان</a>
+                                    </div>
+                                   
+                              
+                                </div>
+                            </section>
+                      </div>
+                      <div class="swiper-slide">
+                        <section class="bg-bg3 w-full h-full hidden md:flex ">
+                            <div class="flex flex-wrap flex-col justify-end items-end *:my-2 *:px-5 mb-9 *:text-right ">
+                                <div class="w-full">
+                                    <figure class=" w-1/2">
+                                        <img class="" src="src/aseet/img/b0jfc_logotype_v1.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="w-full">
+                                    <span class="w-fit h-full text-white  flex items-center bg-[rgb(28,28,28)] rounded p-1">  <span class="material-symbols-outlined">
+                                        calendar_month
+                                        </span>
+                                        جمعه‌ها، ساعت ۸ صبح</span>
+                                </div>
+                                <div class="w-full">
+                                    <span class="w-full h-full text-white font-bold">بازی مالک تازه شروع شده  </span>
+                                </div>
+                                <div class="w-full">
+                                    
+                                <a href="#" class="w-fit p-1 h-full flex items-center bg-white rounded hover:bg-opacity-80 hover:duration-300 "><span class="material-symbols-outlined">
+                                    arrow_right
+                                    </span >تماشای رایگان</a>
+                                </div>
+                               
+                          
+                            </div>
+                    </section>
+                    <section class="bg-bg4 w-full h-full flex bg-center bg-cover md:hidden ">
+                        <div class="flex flex-wrap flex-col justify-end items-end *:my-2 *:px-5 mb-9 *:text-right ">
+                            <div class="w-full">
+                                <figure class=" w-1/2">
+                                    <img class="" src="src/aseet/img/b0jfc_logotype_v1.webp" alt="">
+                                </figure>
+                            </div>
+                            <div class="w-full">
+                                <span class="w-fit h-full text-white  flex items-center bg-[rgb(28,28,28)] rounded p-1">  <span class="material-symbols-outlined">
+                                    calendar_month
+                                    </span>
+                                    جمعه‌ها، ساعت ۸ صبح</span>
+                            </div>
+                            <div class="w-full">
+                                <span class="w-full h-full text-white font-bold">بازی مالک تازه شروع شده  </span>
+                            </div>
+                            <div class="w-full">
+                                
+                            <a href="#" class="w-fit p-1 h-full flex items-center bg-white rounded hover:bg-opacity-80 hover:duration-300 "><span class="material-symbols-outlined">
+                                arrow_right
+                                </span >تماشای رایگان</a>
+                            </div>
+                           
+                      
+                        </div>
+                    </section>
+                      </div>
+                      <div class="swiper-slide">
+                        <section class="bg-bg5 w-full h-full hidden md:flex ">
+                            <div class="flex flex-wrap flex-col justify-end items-end *:my-2 *:px-5 mb-9 *:text-right ">
+                                <div class="w-full">
+                                    <figure class=" w-1/2">
+                                        <img class="" src="src/aseet/img/b707zgp_logotype_v1.webp" alt="">
+                                    </figure>
+                                </div>
+                                <div class="w-full">
+                                    <span class="w-fit h-full text-white  flex items-center bg-[rgb(28,28,28)] rounded p-1">  <span class="material-symbols-outlined">
+                                        calendar_month
+                                        </span>
+                                        جمعه‌ها، ساعت 10 صبح</span>
+                                </div>
+                                <div class="w-full">
+                                    <span class="w-full h-full text-white font-bold">گوش شنوا، برای حرف هایی که گفته نشدن  </span>
+                                </div>
+                                <div class="w-full">
+                                    
+                                <a href="#" class="w-fit p-1 h-full flex items-center bg-white rounded hover:bg-opacity-80 hover:duration-300 "><span class="material-symbols-outlined">
+                                    arrow_right
+                                    </span >تماشای رایگان</a>
+                                </div>
+                             
+                          
+                            </div>
+                    </section>
+                    <section class="bg-bg6 w-full h-full flex bg-center bg-cover md:hidden ">
+                        <div class="flex flex-wrap flex-col justify-end items-end *:my-2 *:px-5 mb-9 *:text-right ">
+                            <div class="w-full">
+                                <figure class=" w-1/2">
+                                    <img class="" src="src/aseet/img/b0jfc_logotype_v1.webp" alt="">
+                                </figure>
+                            </div>
+                            <div class="w-full">
+                                <span class="w-fit h-full text-white  flex items-center bg-[rgb(28,28,28)] rounded p-1">  <span class="material-symbols-outlined">
+                                    calendar_month
+                                    </span>
+                                    جمعه‌ها، ساعت 10 صبح</span>
+                            </div>
+                            <div class="w-full">
+                                <span class="w-full h-full text-white font-bold">  گوش شنوا، برای حرف هایی که گفته نشدن</span>
+                            </div>
+                            <div class="w-full">
+                                
+                            <a href="#" class="w-fit p-1 h-full flex items-center bg-white rounded hover:bg-opacity-80 hover:duration-300 "><span class="material-symbols-outlined">
+                                arrow_right
+                                </span >تماشای رایگان</a>
+                            </div>
+                           
+                      
+                        </div>
+                    </section>
+                      </div>
+                      
+                    </div>
+                   
+                    <section class="flex items-end   *:w-10 *:h-10">
+                        <div class="w-full h-full absolute bottom-10 left-12 *:bg-[#0f0e0ea5] *:overflow-hidden *:rounded-full *:px-5 *:mx-3  ">
+                            <div class="swiper-button-next  "></div>
+                            <div class="swiper-button-prev  "></div>
+                        </div>
+                    </section>
+                
+                  </div>
+                
+                
+                
+            </section>
+
+            <!-- swiper slider -->
+             <!-- filter -->
+            <section class="w-full h-full md:h-[70px] flex justify-center items-center mt-5">
+                <div class="w-full h-full flex flex-wrap md:flex-nowrap justify-center items-center px-5 *:px-2">
+                        <!-- h34 w320 -->
+                         <div class="down h-[34px] w-full hidden md:flex md:w-[320px]">
+                                <select  name="film"  id="film" class="rounded text-right w-full h-full outline-none border-none  focus:outline-out p-1 *:p-1  bg-select text-white hover:bg-opacity-60 hover:duration-300  *:bg-main  " >
+                                    <option  class=""  selected  disabled hidden>فیلم و سریال</option>
+                                    <option class=" " value="all" >همه</option>
+                                    <option class=" " value="film">فیلم</option>
+                                    <option class=" " value="serial">سریال</option>
+                                    
+                                </select>
+                         </div>
+                         <div class="down h-[34px] w-full hidden md:flex md:w-[320px] ">
+                            <select  name="film"  id="film" class="rounded *:w-1/2 text-right w-full h-full outline-none border-none   focus:outline-out p-1 *:p-1  bg-select text-white hover:bg-opacity-60 hover:duration-300  *:bg-main  " >
+                                <option  class="" value=""  selected  disabled hidden> ژانر</option>
+                                <option class=" " value="" >کمدی</option>
+                                <option class=" " value="">ترسناک</option>
+                                <option class=" " value="">اکشن</option>
+                                <option class=" " value="">انیمیشن</option>
+                                
+                            </select>
+                         </div>
+                         <div class="down h-[34px] w-full hidden md:flex md:w-[320px]">
+                            <select  name="film"  id="film" class="rounded text-right w-full h-full outline-none border-none  focus:outline-out p-1 *:p-1  bg-select text-white hover:bg-opacity-60 hover:duration-300  *:bg-main  " >
+                                <option  class=""  selected disabled hidden> کشور</option>
+                                <option class=" " value="" >ایران</option>
+                                <option class=" " value="">امریکا</option>
+                              
+                                
+                            </select>
+                         </div>
+                         <div class="down h-[34px] w-full hidden md:flex md:w-[320px]">
+                            <select  name="film"  id="film" class="rounded text-right w-full h-full outline-none border-none  focus:outline-out p-1 *:p-1  bg-select text-white hover:bg-opacity-60 hover:duration-300  *:bg-main  " >
+                                <option  class=""  selected disabled hidden> زبان</option>
+                                <option class=" " value="" >ایران</option>
+                                <option class=" " value="">امریکا</option>
+                              
+                                
+                            </select>
+                         </div>
+                         <div class="down h-[34px] w-full hidden md:flex md:w-[320px] ">
+                            <select  name="film"  id="film" class=" text-right w-full rounded h-full outline-none border-none  focus:outline-out p-1 *:p-1  bg-select text-white hover:bg-opacity-60 hover:duration-300  *:bg-main  " >
+                                <option  class=""  selected disabled hidden> سن</option>
+                                <option class=" " value="" >همه</option>
+                                <option class=" " value="">زیر 18 سال</option>
+                                <option class=" " value="">بالای 18 سال</option>
+                              
+                                
+                            </select>
+                         </div>
+                         <div class="down h-[34px] w-full hidden md:flex  md:w-[320px] ">
+                            <div class="h-full w-full flex justify-between rounded items-center hover:border-out hover:border *:px-1  text-white  bg-select  hover:bg-opacity-60 hover:duration-300">
+                                <div>  <button class=" w-1/2">HD</button></div>
+                                <div class="">   <button class=" w-1/2 flex items-center h-full" id="mode"><span class="material-symbols-outlined">
+                                    toggle_off
+                                    </span></button></div>
+                                
+                            </div>
+                               
+                         </div>
+                         <div class="down h-[34px] w-full hidden md:flex md:w-[320px] ">
+
+                            <button class="bg-[rgb(253,193,60)] w-full h-full opacity-85 hover:opacity-95 hover:duration-300 rounded ">اعمال فیلتر</button>
+                         </div>
+                         <div class="h-[34px] w-full md:w-[320px] text-center md:hidden">
+
+                            <button id="btnFilter" class="bg-[rgb(253,193,60)] w-full h-full opacity-85 hover:opacity-95 hover:duration-300 rounded flex items-center justify-center"> <span class="material-symbols-outlined">
+                                filter_list
+                                </span>فیلتر</button>
+                         </div>
+                </div>
+                                
+                        
+                  
+                
+            </section>
+              <!-- filter -->
+               <!-- catalog -->
+            <section class="w-full overflow-hidden   md:h-full gap-4  flex flex-wrap justify-center items-center mt-5 ">
+                <section class="w-full h-10 flex justify-between items-center px-2">
+                    <div class="">
+                        <span class="text-white font-bold">ویژه</span>
+                    </div>
+                    <div class="">
+                        <a href="#" class="flex items-center text-[rgb(225,172,55)] cursor-none ">مشاهده همه<span class="material-symbols-outlined">
+                            chevron_left
+                        </span>
+                            </a>
+                    </div>
+                </section>
+                <section class="gap-2 mt-5 *:relative   *:mt-4 *:px-4 *:py-4 md:gap-4 w-full h-full justify-around items-center *:cursor-pointer  flex flex-wrap *:rounded  *:bg-cover *:w-[370px]  *:h-[170px]  *:md:w-[350px] *:md:h-[200px]">
+                    <div class="lnk  bg-mv1 ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:-z-1  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:top-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-10 ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-10">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class=" bg-mv2 lnk  ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:top-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30 ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class=" bg-mv3  lnk ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:top-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30 ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="lnk catalog bg-mv4 hidden md:block">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog bg-mv5  hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog bg-mv6  hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(241,56,56)] rounded text-xs p-1 h-[20px]">اکران انلاین </span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class="catalog bg-mv7  hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="catalog bg-mv8  hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="catalog bg-mv9  hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(251,56,56)] rounded text-xs p-1 h-[20px]">اکران انلاین </span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="catalog bg-mv10 hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog bg-mv11 hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(251,56,56)] rounded text-xs p-1 h-[20px]">اکران انلاین </span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="catalog bg-mv12 hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="catalog bg-mv13 hidden md:block lnk">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(251,56,56)] rounded text-xs p-1 h-[20px]">اکران انلاین </span>
+                        </div>
+                        <!--  -->
+                        <div class="lnk catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="lnk catalog bg-mv14 hidden md:block ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="lnk catalog bg-mv15 hidden md:block ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="lnk catalog bg-mv18 hidden ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="lnk catalog bg-mv19 hidden ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="lnk catalog bg-mv20 hidden ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                     <div class="lnk catalog bg-mv21 hidden  ">
+                        <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="lnk catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                     </div>
+                    <div class="lnk catalog bg-mv22 hidden ">
+                         <div class="flex w-full justify-end">
+                            <span class="text-white bg-[rgb(28,181,97)] rounded text-xs p-1 h-[20px]">رایگان ایرانسلی</span>
+                        </div>
+                        <!--  -->
+                        <div class="catalog w-full mb-8 h-full flex flex-wrap justify-end items-end flex-col  *:text-white hover:after:content-[''] hover:after:z-20  hover:after:absolute hover:after:flex hover:after:left-0  hover:after:bottom-0 hover:after:bg-[#2d2d2d97] hover:after:w-full hover:after:h-full  hover:after:duration-300 group">
+                                <div class="w-full hidden group-hover:flex group-hover:relative group-hover:z-30   ">
+                                    <span >سرگیجه - فصل ۲ قسمت ۳</span>
+                                </div>
+                                <div class="w-full mb-4 hidden group-hover:flex group-hover:relative group-hover:z-30">
+                                    <span >
+                                        ۱۴۰۳ - ریلیتی شو</span>
+                                </div>
+                        </div>
+                    </div>
+                       
+                    
+                  
+                </section>
+                <section class="w-full h-10  flex justify-start  ">
+                    <button id="btnCatlog" class="flex  items-center text-[rgb(253,193,60)]"><span class="material-symbols-outlined">
+                        arrow_drop_down
+                        </span>
+                        نمایش همه فیلم های ویژه امروز</button>
+                </section>
+            </section>
+             <!-- catalog -->
+              <!-- slide1 -->
+                    <section class="w-full h-full md:h-[400px] overflow-hidden">
+                        <section id="slid1" class="w-full flex py-3 mt-2  px-4">
+                            <div class="flex w-full justify-between items-center  ">
+                                <div class="w-full">
+                                    <span class="text-white">خفن ترین</span>
+                                </div>
+                                <div class="w-full"><a class="flex  items-center justify-end text-[rgb(248,189,59)]">مشاهده همه<span class="material-symbols-outlined">
+                                    chevron_left
+                                    </span></a></div>
+                            </div>
+                         </section>
+                         <div class="w-full h-full  flex flex-wrap  *:bg-cover items-center justify-center gap-2 md:gap-4 *:bg-no-repeat  rounded *:w-[205px]  *:my-2   *:h-[270px] *:md:w-[220px]">
+                            <div class="h-full w-full relative bg-slide26 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                               
+                            </div>
+                            <!--  -->
+                            <div class="h-full w-full relative bg-slide27 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                            
+                            <div class="h-full w-full relative bg-slide28 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                                    <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                             <!--  -->
+                             <div class="h-full w-full relative bg-slide29 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                             <!--  -->
+                             <div class="h-full w-full relative bg-slide30 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                             <!--  -->
+                             <div class="h-full w-full relative bg-slide31 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                                    <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                             <!--  -->
+                             <div class="h-full w-full relative bg-slide32 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                                    <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                             <!--  -->
+                             <div class="h-full w-full relative bg-slide33 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                               
+                                <div class="w-full flex justify-end px-2 py-2 h-fit">
+                                    <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                                    <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                                </div>
+                               <div class=" h-full w-full flex relative  items-end px-2 ">
+                                <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                                    
+                                    <span class="w-full  ">
+                                        <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                                    </span>
+                                
+                                <span class="w-full  ">وحشت - هیجان انگیز</span>
+                                <span class="w-full ">
+                                    ۲۰۲۴ - آمریکا - چندزبانه</span>
+                            </div>
+                               </div>
+                            </div>
+                    </div>
+                    </section>
+               <!-- silde1 -->
+               <!-- scroll x -->
+               <section id="" class=" w-full flex py-3 mt-2  ">
+                <div class="flex w-full justify-between items-center  *:px-4">
+                    <div class="w-full">
+                        <span class="text-white"> داغ ترین</span>
+                    </div>
+                    <div class="w-full"><a class="flex  items-center justify-end text-[rgb(248,189,59)]">مشاهده همه<span class="material-symbols-outlined">
+                        chevron_left
+                        </span></a></div>
+                </div>
+             </section>
+               <section class="w-full h-full md:h-[400px] overflow-x-scroll overflow-y-hidden  md:overflow-hidden">
+                
+                 <div class="w-[300%] md:w-full h-full  flex   *:bg-cover items-center justify-center gap-4 *:bg-no-repeat  *:rounded *:w-[210px]  *:my-2   *:h-[270px] *:md:w-[220px]">
+                    <div class="h-full w-full relative bg-slide1 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                    <!--  -->
+                    <div class="h-full w-full relative bg-slide3 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                    
+                    <div class="h-full w-full relative bg-slide2 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide4 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex  bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide5 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide6 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide7 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide8 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+            </div>
+            </section>
+               <!-- scroll x -->
+               <!-- scroll x2 -->
+               <section id="" class=" w-full flex py-3 mt-2  ">
+                <div class="flex w-full justify-between items-center  *:px-4">
+                    <div class="w-full">
+                        <span class="text-white"> تاز ها </span>
+                    </div>
+                    <div class="w-full"><a class="flex  items-center justify-end text-[rgb(248,189,59)]">مشاهده همه<span class="material-symbols-outlined">
+                        chevron_left
+                        </span></a></div>
+                </div>
+             </section>
+               <section class="w-full h-full md:h-[400px] overflow-x-scroll overflow-y-hidden  md:overflow-hidden">
+                
+                 <div class="w-[300%] md:w-full h-full  flex   *:bg-cover items-center justify-center gap-4 *:bg-no-repeat  *:rounded *:w-[210px]  *:my-2   *:h-[270px] *:md:w-[220px]">
+                    <div class="h-full w-full relative bg-slide18 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                    <!--  -->
+                    <div class="h-full w-full relative bg-slide19 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                    
+                    <div class="h-full w-full relative bg-slide20 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide21 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex  bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide22 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide23 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide24 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide25 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+            </div>
+            </section>
+               <!-- scroll x2 -->
+                <!--  -->
+                    <!-- scroll x -->
+               <section id="" class=" w-full flex py-3 mt-2  ">
+                <div class="flex w-full justify-between items-center  *:px-4">
+                    <div class="w-full">
+                        <span class="text-white">  برترین ها</span>
+                    </div>
+                    <div class="w-full"><a class="flex  items-center justify-end text-[rgb(248,189,59)]">مشاهده همه<span class="material-symbols-outlined">
+                        chevron_left
+                        </span></a></div>
+                </div>
+             </section>
+               <section class="w-full h-full md:h-[400px] overflow-x-scroll overflow-y-hidden  md:overflow-hidden">
+                
+                 <div class="w-[300%] md:w-full h-full  flex   *:bg-cover items-center justify-center gap-4 *:bg-no-repeat  *:rounded *:w-[210px]  *:my-2   *:h-[270px] *:md:w-[220px]">
+                    <div class="h-full w-full  relative bg-slide1 hover:after:content-[''] hover:after:absolute hover:after:z-0 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                    <!--  -->
+                    <div class="h-full w-full relative bg-slide3 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                    
+                    <div class="h-full w-full relative bg-slide2 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide4 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex  bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide5 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a> -->
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a>
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide6 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative  bg-slide7 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+                     <!--  -->
+                     <div class="h-full w-full relative bg-slide8 hover:after:content-[''] hover:after:absolute hover:after:z-10 hover:after:flex hover:after:left-0 hover:after:top-0 hover:after:bg-[#2d2d2dc3] hover:after:w-full hover:after:h-full hover:after:duration-300 group">
+                       
+                        <div class="w-full flex justify-end px-2 py-2 h-fit">
+                            <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-online text-white rounded p-1 text-xs">اکران انلاین</a>
+                            <!-- <a href="videopage.html" class="w-fit  relative group-hover:z-40 flex bg-[rgb(28,181,97)] text-white rounded p-1 text-xs"> رایگان ایرانسلی</a> -->
+                        </div>
+                       <div class=" h-full w-full flex relative  items-end px-2 ">
+                        <div class="w-full  *:py-1   flex-wrap items-end justify-end *:text-white  mb-10 hidden group-hover:flex  group-hover:duration-300   group-hover:relative  group-hover:z-30  ">
+                            
+                            <span class="w-full  ">
+                                <span class="px-2  rounded "><span class=" px-2  rounded ">6/10</span>imdb</span>
+                            </span>
+                        
+                        <span class="w-full  ">وحشت - هیجان انگیز</span>
+                        <span class="w-full ">
+                            ۲۰۲۴ - آمریکا - چندزبانه</span>
+                    </div>
+                       </div>
+                    </div>
+            </div>
+            </section>
+               <!-- scroll x -->
+
+               <!--  -->    
+                <!-- footer -->
+                        <footer class="w-full h-11  bg-[rgb(25,25,25)] fixed z-50 bottom-0">
+                                <section class="w-full h-full flex justify-between items-center px-3 ">
+                                    <div class=" h-full ">
+                                        <ul class=" flex justify-center w-full h-full items-center *:md:items-center *:text-[rgb(148,148,148)]  *:px-3  *:h-full  *:text-xs">
+                                            <li class="flex items-center md:hidden cursor-pointer hover:duration-300 hover:text-white " id="scrolltop"><span class="material-symbols-outlined">
+                                                arrow_upward
+                                                </span></li>
+                                            <li class=" hover:duration-300 hover:text-white *:hover:text-white *hover:duration-300 *:text-xs flex items-center"><span class="material-symbols-outlined ">
+                                                tv
+                                                </span>تماشا با تلوزیون</li>
+                                            <li class="hidden md:flex  hover:duration-300 hover:text-white *:hover:text-white *:hover:duration-300">اپلیکشن ها</li>
+                                            <li class="hidden md:flex  hover:duration-300 hover:text-white *:hover:text-white *:hover:duration-300">تماس و پشتیبانی</li>
+                                            <li class="hidden md:flex  hover:duration-300 hover:text-white *:hover:text-white *:hover:duration-300">فروشگاه</li>
+                                            <li class="hidden md:flex  hover:duration-300 hover:text-white *:hover:text-white *:hover:duration-300"><span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                                </span>سایر لینک ها</li>
+                                        </ul>
+                                    </div>
+                                    <div class=" h-full">
+                                        <ul class="flex h-full items-center *:text-xs">
+                                            <li class="*:text-[rgb(148,148,148)] *:cursor-pointer relative *:hover:duration-300 *:hover:text-white flex items-center  md:hidden "><span id="more" class="material-symbols-outlined">
+                                                more_vert
+                                                </span><ul  class="w-[120px] ulfooter1 h-[100px] bg-[rgb(25,25,25)] justify-center items-center hidden flex-wrap absolute left-0 bottom-[2.25rem]">
+                                                    <li class="w-full flex items-center hover:bg-slate-50 hover:text-black duration-300 hover:animate-ease"><img src="src/aseet/img/icons8-whatsapp-32.png" >وات ساپ</li>
+                                                    <li class="w-full flex items-center hover:bg-slate-50 hover:text-black duration-300 hover:animate-ease"><img src="src/aseet/img/icons8-whatsapp-32.png" >تلگرام</li>
+                                                    <li class="w-full flex items-center hover:bg-slate-50 hover:text-black duration-300 hover:animate-ease"><img src="src/aseet/img/icons8-whatsapp-32.png" >اینستا گرام</li>
+                                             </ul> </li>
+                                            <li class=" relative  *:text-[rgb(148,148,148)]  hidden md:flex"><button id="afooter" class="flex items-center hover:duration-300 hover:text-white hover:animate-ease *:hover:animate-ease *:group-hover:text-white *:group-hover:duration-300 " href="#"><span class="material-symbols-outlined">
+                                                arrow_drop_down
+                                                </span>شبکه های اجتماعی</button>
+                                                 <ul  class="w-[120px] h-[100px] ulfooter2 bg-[rgb(25,25,25)] justify-center items-center hidden flex-wrap absolute left-0 bottom-[2.25rem]">
+                                                        <li class="w-full flex items-center hover:bg-slate-50 hover:text-black duration-300 hover:animate-ease"><img src="src/aseet/img/icons8-whatsapp-32.png" >وات ساپ</li>
+                                                        <li class="w-full flex items-center hover:bg-slate-50 hover:text-black duration-300 hover:animate-ease"><img src="src/aseet/img/icons8-whatsapp-32.png" >تلگرام</li>
+                                                        <li class="w-full flex items-center hover:bg-slate-50 hover:text-black duration-300 hover:animate-ease"><img src="src/aseet/img/icons8-whatsapp-32.png" >اینستا گرام</li>
+                                                 </ul>   
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </section>
+                        </footer>
+                <!-- footer -->
+    </main>
+    
+   <script src="src/script/app.js"></script> 
+   <script src="src/script/swiper-bundle.min.js"></script>
+   <script src="src/script/customSider.js"></script>
+</body>
+</html>
